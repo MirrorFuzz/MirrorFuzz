@@ -5,7 +5,10 @@ Some of our code and data are still being organized and will be updated in a few
 ## Shared Bugs in Deep Learning frameworks
 
 ![SharedBugs](shared_bug_example.png)
-
+<div style="text-align: center;">
+  <img src="shared_bug_example.png" alt="Alt text" width="300"/>
+  <p><strong>Figure 1:</strong> This is the image caption.</p>
+</div>
 Deep Learning (DL) frameworks form the backbone of many AI applications. However, bugs in these frameworks can lead to critical failures, impacting performance, security, and reliability. Despite various bug detection methods, little research has been done on identifying common patterns in APIs across DL frameworks and the risks posed by shared bugs. Many DL frameworks expose similar APIs, which makes them susceptible to analogous bugs that can spread across multiple frameworks.
 
 ![MirrorFuzz](MirrorFuzz_overview.png)
