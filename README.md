@@ -11,5 +11,5 @@ MirrorFuzz is an automated fuzzing tool designed to detect shared bugs across AP
 
 Evaluated on TensorFlow, PyTorch, OneFlow, and Jittor, MirrorFuzz demonstrates significant improvements in bug detection. It increases code coverage by 39.92% on TensorFlow and 98.20% on PyTorch compared to existing methods. Moreover, it discovers 315 bugs, 262 of which are new, and contributes to fixing 80 bugs, with 52 assigned CNVD IDs.
 
-MirrorFuzz offers a powerful solution to identify and mitigate shared bugs in deep learning frameworks, improving their reliability and security for AI applications.
+MirrorFuzz offers a powerful solution to identify and mitigate shared bugs in deep learning frameworks, improving their reliability and security for Deep Learning frameworks.
 
