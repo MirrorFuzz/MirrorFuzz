@@ -28,6 +28,8 @@ To address this issue, we present MirrorFuzz, an automated fuzzing tool that exp
 
 We evaluate MirrorFuzz on four popular DL frameworks: TensorFlow, PyTorch, OneFlow, and Jittor. Our experiments show that MirrorFuzz improves code coverage by 39.92% on TensorFlow and 98.20% on PyTorch compared to state-of-the-art methods. Additionally, it uncovers 315 bugs, 262 of which are previously unknown, and contributes to fixing 80 bugs, with 52 assigned CNVD IDs.
 
+MirrorFuzz offers a powerful solution to identify and mitigate shared bugs across deep learning frameworks, enhancing their reliability and security.
+
 More importantly, our research shows that bugs in leading frameworks like TensorFlow and PyTorch can propagate to many other frameworks. Additionally, bugs in smaller or newer frameworks like OneFlow and Jittor can affect mainstream frameworks, highlighting the widespread impact of shared bugs across deep learning frameworks.
 
-MirrorFuzz offers a powerful solution to identify and mitigate shared bugs across deep learning frameworks, enhancing their reliability and security.
+
